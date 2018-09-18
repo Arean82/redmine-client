@@ -13,6 +13,10 @@ gulp.task('run', ['styles'], function () {
 	childProcess.spawn(electron, ['.'], { stdio: 'inherit' });
 });
 
+
+
+
+
 gulp.task('watch', function() {
 	livereload.listen();
 	gulp.watch('./assets/sass/*.scss', ['styles']);
