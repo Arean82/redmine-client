@@ -12,7 +12,6 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron-prebuilt": "^1.4.13",
-    "gulp": "^4.0.0",
     "gulp-livereload": "^4.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.4.0"
@@ -20,8 +19,11 @@
   "dependencies": {
     "bulma": "^0.3.1",
     "electron-json-storage": "^2.0.2",
+    "graceful-fs": "^4.1.11",
+    "gulp": "^3.9.1",
     "handlebars": "^4.0.6",
     "menubar": "^5.2.0",
+    "minimatch": "^3.0.4",
     "moment": "^2.17.1",
     "shell": "^0.3.2"
   },
